@@ -3,7 +3,7 @@ export const TETRIS_SETTINGS_DEFAULT = {
     fontWeight: 'normal',
     fontScale: 0.7,
     colors: {
-        gameBack: '#ccc',
+        gameBack: '#fff',
         gameTextColor: '#000',
         wellBack: ['#0f4664', '#6ebef0'],
         wellTextColor: '#000',

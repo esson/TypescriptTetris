@@ -17,9 +17,4 @@ gulp.task('serve', function () {
     }));
 });
 
-gulp.task('js', function () {
-  return gulp.src(['node_modules/requirejs/require.js'])
-    .pipe(gulp.dest('dist/vendor'));
-});
-
-gulp.task('default', gulp.series('ts', 'js'));
+gulp.task('default', gulp.series('ts'));
